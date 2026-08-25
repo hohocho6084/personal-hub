@@ -23,12 +23,12 @@
     {
       "category": "일정 등록",
       "items": [
-        { "id": "sched-add-1", "feature": "일정 제목을 입력할 수 있다", "status": "todo" },
-        { "id": "sched-add-2", "feature": "일정 날짜를 입력/선택할 수 있다", "status": "todo" },
-        { "id": "sched-add-3", "feature": "일정 시간을 입력/선택할 수 있다", "status": "todo" },
-        { "id": "sched-add-4", "feature": "일정 메모(설명)를 입력할 수 있다", "status": "todo" },
-        { "id": "sched-add-5", "feature": "필수 항목(제목/날짜) 누락 시 저장이 되지 않고 안내 문구가 표시된다", "status": "todo" },
-        { "id": "sched-add-6", "feature": "입력한 일정을 저장하면 localStorage에 반영되고 캘린더에서 확인 가능하다", "status": "todo" }
+        { "id": "sched-add-1", "feature": "일정 제목을 입력할 수 있다", "status": "developing" },
+        { "id": "sched-add-2", "feature": "일정 날짜를 입력/선택할 수 있다", "status": "developing" },
+        { "id": "sched-add-3", "feature": "일정 시간을 입력/선택할 수 있다", "status": "developing" },
+        { "id": "sched-add-4", "feature": "일정 메모(설명)를 입력할 수 있다", "status": "developing" },
+        { "id": "sched-add-5", "feature": "필수 항목(제목/날짜) 누락 시 저장이 되지 않고 안내 문구가 표시된다", "status": "developing" },
+        { "id": "sched-add-6", "feature": "입력한 일정을 저장하면 localStorage에 반영되고 캘린더에서 확인 가능하다", "status": "developing" }
       ]
     },
     {

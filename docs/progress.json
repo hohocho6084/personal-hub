@@ -1,5 +1,6 @@
 {
   "completed": ["1-초기세팅", "2-데이터모델및localStorage유틸", "3-대시보드", "4-일정등록"],
   "in_progress": "5-캘린더",
+  "note": "구현 완료(lint/tsc/build/dev서버 셀프테스트 통과), QA 대기 중. feature/5-캘린더 브랜치에 커밋됨(4e70714). 내일 QA 요청부터 이어서 진행.",
   "last_updated": "2026-08-25"
 }

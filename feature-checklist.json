@@ -14,10 +14,10 @@
     {
       "category": "대시보드",
       "items": [
-        { "id": "dash-1", "feature": "오늘 날짜의 일정을 요약해서 보여준다", "status": "developing" },
-        { "id": "dash-2", "feature": "최근 용돈 기입 내역을 요약해서 보여준다", "status": "developing" },
-        { "id": "dash-3", "feature": "대시보드에서 캘린더, 용돈 기입장 등 다른 화면으로 바로 이동할 수 있다", "status": "developing" },
-        { "id": "dash-4", "feature": "대시보드에 데이터 백업(내보내기/가져오기) 버튼 또는 메뉴가 노출된다", "status": "developing" }
+        { "id": "dash-1", "feature": "오늘 날짜의 일정을 요약해서 보여준다", "status": "done" },
+        { "id": "dash-2", "feature": "최근 용돈 기입 내역을 요약해서 보여준다", "status": "done" },
+        { "id": "dash-3", "feature": "대시보드에서 캘린더, 용돈 기입장 등 다른 화면으로 바로 이동할 수 있다", "status": "done" },
+        { "id": "dash-4", "feature": "대시보드에 데이터 백업(내보내기/가져오기) 버튼 또는 메뉴가 노출된다", "status": "done" }
       ]
     },
     {

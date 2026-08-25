@@ -1,5 +1,5 @@
 {
-  "completed": [],
-  "in_progress": "1-초기세팅",
+  "completed": ["1-초기세팅"],
+  "in_progress": "",
   "last_updated": "2026-08-25"
 }

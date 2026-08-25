@@ -6,9 +6,9 @@
       "category": "공통/기반작업",
       "items": [
         { "id": "common-1", "feature": "로그인/회원가입 없이 바로 앱에 접속해 사용할 수 있다", "status": "done" },
-        { "id": "common-2", "feature": "일정·용돈 데이터가 브라우저 localStorage에 저장되어 재접속 시에도 유지된다", "status": "developing" },
+        { "id": "common-2", "feature": "일정·용돈 데이터가 브라우저 localStorage에 저장되어 재접속 시에도 유지된다", "status": "done" },
         { "id": "common-3", "feature": "화면 간 이동(대시보드, 일정 등록, 캘린더, 일정 상세, 용돈 목록, 용돈 상세)이 메뉴/링크로 가능하다", "status": "done" },
-        { "id": "common-4", "feature": "서버나 외부 서비스 연동 없이 모든 기능이 동작한다", "status": "developing" }
+        { "id": "common-4", "feature": "서버나 외부 서비스 연동 없이 모든 기능이 동작한다", "status": "done" }
       ]
     },
     {

@@ -63,13 +63,13 @@ export default function DashboardPage() {
                   <li key={schedule.id}>
                     <Link
                       href={`/schedule/${schedule.id}`}
-                      className="flex items-center justify-between rounded-lg border border-hairline bg-pebble/40 px-3 py-2 transition-colors hover:bg-pebble"
+                      className="flex items-center justify-between gap-2 rounded-lg border border-hairline bg-pebble/40 px-3 py-2 transition-colors hover:bg-pebble"
                     >
-                      <span className="text-body-sm font-medium text-ink-navy">
+                      <span className="min-w-0 truncate text-body-sm font-medium text-ink-navy">
                         {schedule.title}
                       </span>
                       {schedule.time && (
-                        <span className="text-caption text-slate-gray">
+                        <span className="shrink-0 text-caption text-slate-gray">
                           {schedule.time}
                         </span>
                       )}
@@ -114,28 +114,28 @@ export default function DashboardPage() {
                   <li key={entry.id}>
                     <Link
                       href={`/money/${entry.id}`}
-                      className="flex items-center justify-between rounded-lg border border-hairline bg-pebble/40 px-3 py-2 transition-colors hover:bg-pebble"
+                      className="flex items-center justify-between gap-2 rounded-lg border border-hairline bg-pebble/40 px-3 py-2 transition-colors hover:bg-pebble"
                     >
-                      <div className="flex items-center gap-2">
+                      <div className="flex min-w-0 items-center gap-2">
                         <Badge
                           variant="secondary"
                           className={
                             entry.type === "income"
-                              ? "bg-income-green/10 text-income-green"
-                              : "bg-expense-red/10 text-expense-red"
+                              ? "shrink-0 bg-income-green/10 text-income-green"
+                              : "shrink-0 bg-expense-red/10 text-expense-red"
                           }
                         >
                           {entry.type === "income" ? "수입" : "지출"}
                         </Badge>
-                        <span className="text-body-sm font-medium text-ink-navy">
+                        <span className="min-w-0 truncate text-body-sm font-medium text-ink-navy">
                           {entry.title}
                         </span>
                       </div>
                       <span
                         className={
                           entry.type === "income"
-                            ? "text-body-sm font-semibold text-income-green"
-                            : "text-body-sm font-semibold text-expense-red"
+                            ? "shrink-0 text-body-sm font-semibold text-income-green"
+                            : "shrink-0 text-body-sm font-semibold text-expense-red"
                         }
                       >
                         {entry.type === "income" ? "+" : "-"}

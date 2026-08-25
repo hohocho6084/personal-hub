@@ -39,11 +39,7 @@ function writeJSON<T>(key: string, value: T): void {
 }
 
 function generateId(): string {
-  if (isBrowser() && window.crypto?.randomUUID) {
-    return window.crypto.randomUUID();
-  }
-  // crypto.randomUUID를 지원하지 않는 구형 환경을 위한 대체 구현
-  return `id-${Date.now()}-${Math.random().toString(16).slice(2)}`;
+  return window.crypto.randomUUID();
 }
 
 function ensureMeta(): Meta {

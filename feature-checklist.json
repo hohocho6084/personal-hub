@@ -5,77 +5,77 @@
     {
       "category": "공통/기반작업",
       "items": [
-        { "id": "common-1", "feature": "로그인/회원가입 없이 바로 앱에 접속해 사용할 수 있다", "done": true },
-        { "id": "common-2", "feature": "일정·용돈 데이터가 브라우저 localStorage에 저장되어 재접속 시에도 유지된다", "done": false },
-        { "id": "common-3", "feature": "화면 간 이동(대시보드, 일정 등록, 캘린더, 일정 상세, 용돈 목록, 용돈 상세)이 메뉴/링크로 가능하다", "done": true },
-        { "id": "common-4", "feature": "서버나 외부 서비스 연동 없이 모든 기능이 동작한다", "done": false }
+        { "id": "common-1", "feature": "로그인/회원가입 없이 바로 앱에 접속해 사용할 수 있다", "status": "done" },
+        { "id": "common-2", "feature": "일정·용돈 데이터가 브라우저 localStorage에 저장되어 재접속 시에도 유지된다", "status": "developing" },
+        { "id": "common-3", "feature": "화면 간 이동(대시보드, 일정 등록, 캘린더, 일정 상세, 용돈 목록, 용돈 상세)이 메뉴/링크로 가능하다", "status": "done" },
+        { "id": "common-4", "feature": "서버나 외부 서비스 연동 없이 모든 기능이 동작한다", "status": "developing" }
       ]
     },
     {
       "category": "대시보드",
       "items": [
-        { "id": "dash-1", "feature": "오늘 날짜의 일정을 요약해서 보여준다", "done": false },
-        { "id": "dash-2", "feature": "최근 용돈 기입 내역을 요약해서 보여준다", "done": false },
-        { "id": "dash-3", "feature": "대시보드에서 캘린더, 용돈 기입장 등 다른 화면으로 바로 이동할 수 있다", "done": false },
-        { "id": "dash-4", "feature": "대시보드에 데이터 백업(내보내기/가져오기) 버튼 또는 메뉴가 노출된다", "done": false }
+        { "id": "dash-1", "feature": "오늘 날짜의 일정을 요약해서 보여준다", "status": "todo" },
+        { "id": "dash-2", "feature": "최근 용돈 기입 내역을 요약해서 보여준다", "status": "todo" },
+        { "id": "dash-3", "feature": "대시보드에서 캘린더, 용돈 기입장 등 다른 화면으로 바로 이동할 수 있다", "status": "todo" },
+        { "id": "dash-4", "feature": "대시보드에 데이터 백업(내보내기/가져오기) 버튼 또는 메뉴가 노출된다", "status": "todo" }
       ]
     },
     {
       "category": "일정 등록",
       "items": [
-        { "id": "sched-add-1", "feature": "일정 제목을 입력할 수 있다", "done": false },
-        { "id": "sched-add-2", "feature": "일정 날짜를 입력/선택할 수 있다", "done": false },
-        { "id": "sched-add-3", "feature": "일정 시간을 입력/선택할 수 있다", "done": false },
-        { "id": "sched-add-4", "feature": "일정 메모(설명)를 입력할 수 있다", "done": false },
-        { "id": "sched-add-5", "feature": "필수 항목(제목/날짜) 누락 시 저장이 되지 않고 안내 문구가 표시된다", "done": false },
-        { "id": "sched-add-6", "feature": "입력한 일정을 저장하면 localStorage에 반영되고 캘린더에서 확인 가능하다", "done": false }
+        { "id": "sched-add-1", "feature": "일정 제목을 입력할 수 있다", "status": "todo" },
+        { "id": "sched-add-2", "feature": "일정 날짜를 입력/선택할 수 있다", "status": "todo" },
+        { "id": "sched-add-3", "feature": "일정 시간을 입력/선택할 수 있다", "status": "todo" },
+        { "id": "sched-add-4", "feature": "일정 메모(설명)를 입력할 수 있다", "status": "todo" },
+        { "id": "sched-add-5", "feature": "필수 항목(제목/날짜) 누락 시 저장이 되지 않고 안내 문구가 표시된다", "status": "todo" },
+        { "id": "sched-add-6", "feature": "입력한 일정을 저장하면 localStorage에 반영되고 캘린더에서 확인 가능하다", "status": "todo" }
       ]
     },
     {
       "category": "캘린더",
       "items": [
-        { "id": "cal-1", "feature": "월간(한 달) 달력 형태로 화면을 볼 수 있다", "done": false },
-        { "id": "cal-2", "feature": "이전 달/다음 달로 이동할 수 있다", "done": false },
-        { "id": "cal-3", "feature": "일정이 있는 날짜에 표시(마커/뱃지 등)가 보인다", "done": false },
-        { "id": "cal-4", "feature": "특정 날짜를 클릭하면 해당 날짜의 일정 목록을 확인할 수 있다", "done": false },
-        { "id": "cal-5", "feature": "캘린더에서 일정을 클릭하면 일정 상세 화면으로 이동한다", "done": false }
+        { "id": "cal-1", "feature": "월간(한 달) 달력 형태로 화면을 볼 수 있다", "status": "todo" },
+        { "id": "cal-2", "feature": "이전 달/다음 달로 이동할 수 있다", "status": "todo" },
+        { "id": "cal-3", "feature": "일정이 있는 날짜에 표시(마커/뱃지 등)가 보인다", "status": "todo" },
+        { "id": "cal-4", "feature": "특정 날짜를 클릭하면 해당 날짜의 일정 목록을 확인할 수 있다", "status": "todo" },
+        { "id": "cal-5", "feature": "캘린더에서 일정을 클릭하면 일정 상세 화면으로 이동한다", "status": "todo" }
       ]
     },
     {
       "category": "일정 상세",
       "items": [
-        { "id": "sched-detail-1", "feature": "선택한 일정의 제목/날짜/시간/메모를 확인할 수 있다", "done": false },
-        { "id": "sched-detail-2", "feature": "일정 내용을 수정할 수 있다", "done": false },
-        { "id": "sched-detail-3", "feature": "일정을 삭제할 수 있다", "done": false },
-        { "id": "sched-detail-4", "feature": "일정 삭제 시 확인 팝업이 표시된다", "done": false }
+        { "id": "sched-detail-1", "feature": "선택한 일정의 제목/날짜/시간/메모를 확인할 수 있다", "status": "todo" },
+        { "id": "sched-detail-2", "feature": "일정 내용을 수정할 수 있다", "status": "todo" },
+        { "id": "sched-detail-3", "feature": "일정을 삭제할 수 있다", "status": "todo" },
+        { "id": "sched-detail-4", "feature": "일정 삭제 시 확인 팝업이 표시된다", "status": "todo" }
       ]
     },
     {
       "category": "용돈 목록",
       "items": [
-        { "id": "money-list-1", "feature": "수입/지출 내역을 리스트 형태로 확인할 수 있다", "done": false },
-        { "id": "money-list-2", "feature": "새 수입/지출 항목을 추가(금액/날짜/항목명/메모 등)할 수 있다", "done": false },
-        { "id": "money-list-3", "feature": "목록에서 수입/지출 여부를 구분해서 볼 수 있다", "done": false },
-        { "id": "money-list-4", "feature": "목록에서 특정 항목을 클릭하면 용돈 상세 화면으로 이동한다", "done": false }
+        { "id": "money-list-1", "feature": "수입/지출 내역을 리스트 형태로 확인할 수 있다", "status": "todo" },
+        { "id": "money-list-2", "feature": "새 수입/지출 항목을 추가(금액/날짜/항목명/메모 등)할 수 있다", "status": "todo" },
+        { "id": "money-list-3", "feature": "목록에서 수입/지출 여부를 구분해서 볼 수 있다", "status": "todo" },
+        { "id": "money-list-4", "feature": "목록에서 특정 항목을 클릭하면 용돈 상세 화면으로 이동한다", "status": "todo" }
       ]
     },
     {
       "category": "용돈 상세",
       "items": [
-        { "id": "money-detail-1", "feature": "선택한 수입/지출 항목의 상세 내용(금액/날짜/항목명/메모)을 확인할 수 있다", "done": false },
-        { "id": "money-detail-2", "feature": "수입/지출 항목 내용을 수정할 수 있다", "done": false },
-        { "id": "money-detail-3", "feature": "수입/지출 항목을 삭제할 수 있다", "done": false },
-        { "id": "money-detail-4", "feature": "항목 삭제 시 확인 팝업이 표시된다", "done": false }
+        { "id": "money-detail-1", "feature": "선택한 수입/지출 항목의 상세 내용(금액/날짜/항목명/메모)을 확인할 수 있다", "status": "todo" },
+        { "id": "money-detail-2", "feature": "수입/지출 항목 내용을 수정할 수 있다", "status": "todo" },
+        { "id": "money-detail-3", "feature": "수입/지출 항목을 삭제할 수 있다", "status": "todo" },
+        { "id": "money-detail-4", "feature": "항목 삭제 시 확인 팝업이 표시된다", "status": "todo" }
       ]
     },
     {
       "category": "데이터 백업",
       "items": [
-        { "id": "backup-1", "feature": "버튼 클릭으로 전체 일정·용돈 데이터를 JSON 파일로 내보내기(다운로드)할 수 있다", "done": false },
-        { "id": "backup-2", "feature": "내보내기한 JSON 파일을 업로드해서 데이터를 가져오기(복원)할 수 있다", "done": false },
-        { "id": "backup-3", "feature": "가져오기 시 기존 데이터를 덮어쓰는 것에 대한 안내/확인 문구가 표시된다", "done": false },
-        { "id": "backup-4", "feature": "형식이 올바르지 않은 파일을 업로드하면 오류 안내가 표시된다", "done": false },
-        { "id": "backup-5", "feature": "백업/복원은 서버 없이 브라우저 기능만으로 동작하며 사용자가 수동으로 실행한다", "done": false }
+        { "id": "backup-1", "feature": "버튼 클릭으로 전체 일정·용돈 데이터를 JSON 파일로 내보내기(다운로드)할 수 있다", "status": "todo" },
+        { "id": "backup-2", "feature": "내보내기한 JSON 파일을 업로드해서 데이터를 가져오기(복원)할 수 있다", "status": "todo" },
+        { "id": "backup-3", "feature": "가져오기 시 기존 데이터를 덮어쓰는 것에 대한 안내/확인 문구가 표시된다", "status": "todo" },
+        { "id": "backup-4", "feature": "형식이 올바르지 않은 파일을 업로드하면 오류 안내가 표시된다", "status": "todo" },
+        { "id": "backup-5", "feature": "백업/복원은 서버 없이 브라우저 기능만으로 동작하며 사용자가 수동으로 실행한다", "status": "todo" }
       ]
     }
   ]

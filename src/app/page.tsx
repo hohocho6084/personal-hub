@@ -152,11 +152,21 @@ export default function DashboardPage() {
 
       {/* 다른 화면 바로가기 (dash-3) */}
       <div className="flex flex-wrap gap-3">
-        <Button render={<Link href="/schedule/new" />}>일정 등록하기</Button>
-        <Button variant="outline" render={<Link href="/calendar" />}>
+        <Button nativeButton={false} render={<Link href="/schedule/new" />}>
+          일정 등록하기
+        </Button>
+        <Button
+          variant="outline"
+          nativeButton={false}
+          render={<Link href="/calendar" />}
+        >
           캘린더로 이동
         </Button>
-        <Button variant="outline" render={<Link href="/money" />}>
+        <Button
+          variant="outline"
+          nativeButton={false}
+          render={<Link href="/money" />}
+        >
           용돈 기입장으로 이동
         </Button>
       </div>

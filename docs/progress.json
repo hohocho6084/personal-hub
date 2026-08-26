@@ -1,5 +1,6 @@
 {
   "completed": ["1-초기세팅", "2-데이터모델및localStorage유틸", "3-대시보드", "4-일정등록", "5-캘린더", "6-일정상세"],
-  "in_progress": "",
+  "in_progress": "7-용돈목록",
+  "note": "구현 완료, 셀프 테스트 통과, QA 통과(PASS, 이슈 0건, docs/qa-test-log.md 기록 완료 - 커밋 7a4510d). 사용자 '정지' 요청으로 merge 전에 중단. feature/7-용돈목록 브랜치는 main으로 merge 준비된 상태. 재개 시 main으로 merge하고 feature-checklist.json(money-list-1~4 status: done) 반영 후 8번 단위(용돈 상세)로 진행하면 됨.",
   "last_updated": "2026-08-26"
 }

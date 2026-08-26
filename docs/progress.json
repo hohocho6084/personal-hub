@@ -1,5 +1,6 @@
 {
   "completed": ["1-초기세팅", "2-데이터모델및localStorage유틸", "3-대시보드", "4-일정등록", "5-캘린더", "6-일정상세", "7-용돈목록"],
   "in_progress": "8-용돈상세",
+  "note": "구현+QA 통과(PASS, 이슈 0건, docs/qa-test-log.md 커밋 feab157). 대시보드 nativeButton 콘솔경고 수정도 이 브랜치에 포함(커밋 47a2edc). 사용자 토큰 소진으로 merge 전 긴급 중단. feature/8-용돈상세는 main merge 준비 완료 상태. 재개 시: main merge -> feature-checklist.json(money-detail-1~4 done) 반영 -> 9번 단위(데이터 백업) 시작.",
   "last_updated": "2026-08-26"
 }

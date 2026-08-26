@@ -1,5 +1,5 @@
 {
   "completed": ["1-초기세팅", "2-데이터모델및localStorage유틸", "3-대시보드", "4-일정등록", "5-캘린더"],
-  "in_progress": "",
+  "in_progress": "6-일정상세",
   "last_updated": "2026-08-26"
 }

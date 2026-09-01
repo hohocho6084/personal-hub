@@ -1,5 +1,6 @@
 {
-  "completed": ["1-초기세팅", "2-데이터모델및localStorage유틸", "3-대시보드", "4-일정등록", "5-캘린더", "6-일정상세", "7-용돈목록", "8-용돈상세"],
-  "in_progress": "9-데이터백업",
+  "completed": ["1-초기세팅", "2-데이터모델및localStorage유틸", "3-대시보드", "4-일정등록", "5-캘린더", "6-일정상세", "7-용돈목록", "8-용돈상세", "9-데이터백업"],
+  "in_progress": "",
+  "note": "tech-design.md 6절의 9개 작업 단위 전부 완료 및 master merge, feature-checklist.json 38개 항목 전부 status: done. GitHub origin push는 CEO 확인 전까지 보류.",
   "last_updated": "2026-08-26"
 }

@@ -30,7 +30,7 @@ export default function MoneyListPage() {
             <li key={entry.id}>
               {/* 목록에서 항목 클릭 시 상세 화면으로 이동 (money-list-4) */}
               <Link
-                href={`/money/${entry.id}`}
+                href={`/money/detail?id=${entry.id}`}
                 className="flex items-center justify-between gap-3 rounded-2xl border border-hairline bg-paper px-4 py-3 shadow-sm transition-colors hover:bg-pebble/50"
               >
                 <div className="flex min-w-0 items-center gap-3">

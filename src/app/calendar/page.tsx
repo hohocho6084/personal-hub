@@ -127,7 +127,7 @@ export default function CalendarPage() {
               <li key={schedule.id}>
                 {/* 일정 클릭 시 상세 화면으로 이동 (cal-5) */}
                 <Link
-                  href={`/schedule/${schedule.id}`}
+                  href={`/schedule/detail?id=${schedule.id}`}
                   className="flex items-center justify-between gap-2 rounded-lg border border-hairline bg-pebble/40 px-3 py-2 transition-colors hover:bg-pebble"
                 >
                   <span className="min-w-0 truncate text-body-sm font-medium text-ink-navy">

@@ -1,6 +1,6 @@
 {
-  "completed": ["1-초기세팅", "2-데이터모델및localStorage유틸", "3-대시보드", "4-일정등록", "5-캘린더", "6-일정상세", "7-용돈목록", "8-용돈상세", "9-데이터백업"],
+  "completed": ["1-초기세팅", "2-데이터모델및localStorage유틸", "3-대시보드", "4-일정등록", "5-캘린더", "6-일정상세", "7-용돈목록", "8-용돈상세", "9-데이터백업", "10-GitHubPages배포"],
   "in_progress": "",
-  "note": "tech-design.md 6절의 9개 작업 단위 전부 완료 및 master merge, feature-checklist.json 38개 항목 전부 status: done. GitHub origin push는 CEO 확인 전까지 보류.",
-  "last_updated": "2026-08-26"
+  "note": "tech-design.md 6절의 9개 작업 단위 전부 완료 및 master merge. 10번(GitHubPages배포)은 tech-design.md 범위 밖의 별도 인프라 작업으로, 동적 라우트(/schedule/[id], /money/[id])를 쿼리 파라미터 방식(/schedule/detail?id=, /money/detail?id=)으로 변경 후 output:export 정적 배포 적용. repo를 public으로 전환(CEO 확인 완료)하고 GitHub Actions로 https://hohocho6084.github.io/personal-hub/ 배포 완료 및 접속 확인.",
+  "last_updated": "2026-09-02"
 }
